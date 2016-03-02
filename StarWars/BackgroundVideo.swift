@@ -44,7 +44,7 @@ class BackgroundVideo: UIViewController {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "loopVideo", name: AVPlayerItemDidPlayToEndTimeNotification, object: nil)
         
         
-        let blurEffect = UIBlurEffect(style: .Light)
+        let blurEffect = UIBlurEffect(style: .Dark)
         let blurView = UIVisualEffectView(effect: blurEffect)
         blurView.frame = view.frame
         view.addSubview(blurView)

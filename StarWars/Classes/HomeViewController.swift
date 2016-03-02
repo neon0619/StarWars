@@ -18,7 +18,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        bgView.backgroundColor = UIColor(hex: 0x030000).colorWithAlphaComponent(0.8)
+        bgView.backgroundColor = UIColor.clearColor()
         btnEnter.layer.borderWidth = 2
         btnEnter.layer.borderColor = UIColor(hex: 0xF4E922).CGColor
         btnEnter.layer.cornerRadius = 0.11 * btnEnter.bounds.size.width
