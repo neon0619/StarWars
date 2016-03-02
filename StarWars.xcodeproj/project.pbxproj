@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1CBF071C8566D3003098E4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1CBF061C8566D3003098E4 /* HomeViewController.swift */; };
+		EE1CBF091C857C46003098E4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1CBF081C857C46003098E4 /* MenuViewController.swift */; };
+		EE1E0AB61C86B3FC009032B1 /* DetailsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E0AB51C86B3FC009032B1 /* DetailsListCell.swift */; };
+		EE1E0AE11C86DC69009032B1 /* DarthVader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AE01C86DC69009032B1 /* DarthVader.jpg */; };
+		EE1E0B011C86E204009032B1 /* Beru Whitesun lars.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AF71C86E204009032B1 /* Beru Whitesun lars.png */; };
+		EE1E0B021C86E204009032B1 /* Biggs Darklighter.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AF81C86E204009032B1 /* Biggs Darklighter.png */; };
+		EE1E0B031C86E204009032B1 /* C-3PO.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AF91C86E204009032B1 /* C-3PO.png */; };
+		EE1E0B041C86E204009032B1 /* Darth Vader.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AFA1C86E204009032B1 /* Darth Vader.png */; };
+		EE1E0B051C86E204009032B1 /* Leia Organa.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AFB1C86E204009032B1 /* Leia Organa.png */; };
+		EE1E0B061C86E204009032B1 /* Luke Skywalker.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AFC1C86E204009032B1 /* Luke Skywalker.png */; };
+		EE1E0B071C86E204009032B1 /* Obi-Wan Kenobi.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AFD1C86E204009032B1 /* Obi-Wan Kenobi.png */; };
+		EE1E0B081C86E204009032B1 /* Owen Lars.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AFE1C86E204009032B1 /* Owen Lars.png */; };
+		EE1E0B091C86E204009032B1 /* R2-D2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0AFF1C86E204009032B1 /* R2-D2.png */; };
+		EE1E0B0A1C86E204009032B1 /* R5-D4.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B001C86E204009032B1 /* R5-D4.png */; };
+		EE1E0B151C86E22D009032B1 /* Death Star.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B0B1C86E22D009032B1 /* Death Star.png */; };
+		EE1E0B161C86E22D009032B1 /* EF76 Nebulon-B escort frigate.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B0C1C86E22D009032B1 /* EF76 Nebulon-B escort frigate.png */; };
+		EE1E0B171C86E22D009032B1 /* Executor.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B0D1C86E22D009032B1 /* Executor.png */; };
+		EE1E0B181C86E22D009032B1 /* Imperial shuttle.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B0E1C86E22D009032B1 /* Imperial shuttle.png */; };
+		EE1E0B191C86E22D009032B1 /* Millennium Falcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B0F1C86E22D009032B1 /* Millennium Falcon.png */; };
+		EE1E0B1A1C86E22D009032B1 /* Sentinel-class landing craft.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B101C86E22D009032B1 /* Sentinel-class landing craft.png */; };
+		EE1E0B1B1C86E22D009032B1 /* Slave 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B111C86E22D009032B1 /* Slave 1.png */; };
+		EE1E0B1C1C86E22D009032B1 /* TIE Advanced x1.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B121C86E22D009032B1 /* TIE Advanced x1.png */; };
+		EE1E0B1D1C86E22D009032B1 /* X-wing.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B131C86E22D009032B1 /* X-wing.png */; };
+		EE1E0B1E1C86E22D009032B1 /* Y-wing.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B141C86E22D009032B1 /* Y-wing.png */; };
+		EE1E0B291C86E4F3009032B1 /* Alderaan.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B1F1C86E4F3009032B1 /* Alderaan.png */; };
+		EE1E0B2A1C86E4F3009032B1 /* Bespin.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B201C86E4F3009032B1 /* Bespin.png */; };
+		EE1E0B2B1C86E4F3009032B1 /* Coruscant.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B211C86E4F3009032B1 /* Coruscant.png */; };
+		EE1E0B2C1C86E4F3009032B1 /* Dagobah.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B221C86E4F3009032B1 /* Dagobah.png */; };
+		EE1E0B2D1C86E4F3009032B1 /* Endor.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B231C86E4F3009032B1 /* Endor.png */; };
+		EE1E0B2E1C86E4F3009032B1 /* Geonosis.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B241C86E4F3009032B1 /* Geonosis.png */; };
+		EE1E0B2F1C86E4F3009032B1 /* Hoth.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B251C86E4F3009032B1 /* Hoth.png */; };
+		EE1E0B301C86E4F3009032B1 /* Kamino.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B261C86E4F3009032B1 /* Kamino.png */; };
+		EE1E0B311C86E4F3009032B1 /* Naboo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B271C86E4F3009032B1 /* Naboo.png */; };
+		EE1E0B321C86E4F3009032B1 /* Yavin IV.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B281C86E4F3009032B1 /* Yavin IV.png */; };
+		EE1E0B3E1C86E70A009032B1 /* Ewok.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B341C86E70A009032B1 /* Ewok.png */; };
+		EE1E0B3F1C86E70A009032B1 /* Gungan.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B351C86E70A009032B1 /* Gungan.png */; };
+		EE1E0B401C86E70A009032B1 /* Hutt.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B361C86E70A009032B1 /* Hutt.png */; };
+		EE1E0B411C86E70A009032B1 /* Mon Calamari.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B371C86E70A009032B1 /* Mon Calamari.png */; };
+		EE1E0B421C86E70A009032B1 /* Neimodian.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B381C86E70A009032B1 /* Neimodian.png */; };
+		EE1E0B431C86E70A009032B1 /* Rodian.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B391C86E70A009032B1 /* Rodian.png */; };
+		EE1E0B441C86E70A009032B1 /* Sullustan.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B3A1C86E70A009032B1 /* Sullustan.png */; };
+		EE1E0B451C86E70A009032B1 /* Toydarian.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B3B1C86E70A009032B1 /* Toydarian.png */; };
+		EE1E0B461C86E70A009032B1 /* Trandoshan.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B3C1C86E70A009032B1 /* Trandoshan.png */; };
+		EE1E0B471C86E70A009032B1 /* Yoda's species.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1E0B3D1C86E70A009032B1 /* Yoda's species.png */; };
+		EE31C0CB1C80BB29009AE9F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE31C0C91C80BB29009AE9F4 /* Main.storyboard */; };
+		EE31C0CD1C80BB29009AE9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE31C0CC1C80BB29009AE9F4 /* Assets.xcassets */; };
+		EE31C0D01C80BB29009AE9F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE31C0CE1C80BB29009AE9F4 /* LaunchScreen.storyboard */; };
+		EE31C0DB1C80BB29009AE9F4 /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C0DA1C80BB29009AE9F4 /* StarWarsTests.swift */; };
+		EE31C0E61C80BB29009AE9F4 /* StarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C0E51C80BB29009AE9F4 /* StarWarsUITests.swift */; };
+		EE31C0F61C80C2DC009AE9F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C0F41C80C2DC009AE9F4 /* AppDelegate.swift */; };
+		EE31C0FA1C80C2E6009AE9F4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C0F91C80C2E6009AE9F4 /* Extensions.swift */; };
+		EE31C1071C817C16009AE9F4 /* bg_vid.mov in Resources */ = {isa = PBXBuildFile; fileRef = EE31C1061C817C16009AE9F4 /* bg_vid.mov */; };
+		EE31C1091C81ADCA009AE9F4 /* BackgroundVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C1081C81ADCA009AE9F4 /* BackgroundVideo.swift */; };
+		EE31C10C1C829CA6009AE9F4 /* APIFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C10A1C829CA6009AE9F4 /* APIFunction.swift */; };
+		EE31C10D1C829CA6009AE9F4 /* ConnectionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C10B1C829CA6009AE9F4 /* ConnectionDetector.swift */; };
+		EE31C1101C829E1C009AE9F4 /* ItemListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C10F1C829E1C009AE9F4 /* ItemListTableViewController.swift */; };
+		EE31C1121C82E9B5009AE9F4 /* TypeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C1111C82E9B5009AE9F4 /* TypeListCell.swift */; };
+		EE31C1191C82FEAE009AE9F4 /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C1171C82FEAE009AE9F4 /* HRToast+UIView.swift */; };
+		EE31C11A1C82FEAE009AE9F4 /* ToastFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C1181C82FEAE009AE9F4 /* ToastFunction.swift */; };
+		EE31C11D1C831011009AE9F4 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C11C1C831011009AE9F4 /* ItemDetailsViewController.swift */; };
+		EE31C11F1C836D76009AE9F4 /* AlertDialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31C11E1C836D76009AE9F4 /* AlertDialogs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE31C0D71C80BB29009AE9F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE31C0BA1C80BB29009AE9F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE31C0C11C80BB29009AE9F4;
+			remoteInfo = StarWars;
+		};
+		EE31C0E21C80BB29009AE9F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE31C0BA1C80BB29009AE9F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE31C0C11C80BB29009AE9F4;
+			remoteInfo = StarWars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE1CBF061C8566D3003098E4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Classes/HomeViewController.swift; sourceTree = "<group>"; };
+		EE1CBF081C857C46003098E4 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Classes/MenuViewController.swift; sourceTree = "<group>"; };
+		EE1E0AB51C86B3FC009032B1 /* DetailsListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsListCell.swift; sourceTree = "<group>"; };
+		EE1E0AE01C86DC69009032B1 /* DarthVader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DarthVader.jpg; sourceTree = "<group>"; };
+		EE1E0AF71C86E204009032B1 /* Beru Whitesun lars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beru Whitesun lars.png"; path = "People/Beru Whitesun lars.png"; sourceTree = "<group>"; };
+		EE1E0AF81C86E204009032B1 /* Biggs Darklighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Biggs Darklighter.png"; path = "People/Biggs Darklighter.png"; sourceTree = "<group>"; };
+		EE1E0AF91C86E204009032B1 /* C-3PO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C-3PO.png"; path = "People/C-3PO.png"; sourceTree = "<group>"; };
+		EE1E0AFA1C86E204009032B1 /* Darth Vader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Darth Vader.png"; path = "People/Darth Vader.png"; sourceTree = "<group>"; };
+		EE1E0AFB1C86E204009032B1 /* Leia Organa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Leia Organa.png"; path = "People/Leia Organa.png"; sourceTree = "<group>"; };
+		EE1E0AFC1C86E204009032B1 /* Luke Skywalker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Luke Skywalker.png"; path = "People/Luke Skywalker.png"; sourceTree = "<group>"; };
+		EE1E0AFD1C86E204009032B1 /* Obi-Wan Kenobi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Obi-Wan Kenobi.png"; path = "People/Obi-Wan Kenobi.png"; sourceTree = "<group>"; };
+		EE1E0AFE1C86E204009032B1 /* Owen Lars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Owen Lars.png"; path = "People/Owen Lars.png"; sourceTree = "<group>"; };
+		EE1E0AFF1C86E204009032B1 /* R2-D2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "R2-D2.png"; path = "People/R2-D2.png"; sourceTree = "<group>"; };
+		EE1E0B001C86E204009032B1 /* R5-D4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "R5-D4.png"; path = "People/R5-D4.png"; sourceTree = "<group>"; };
+		EE1E0B0B1C86E22D009032B1 /* Death Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Death Star.png"; path = "StarShips/Death Star.png"; sourceTree = "<group>"; };
+		EE1E0B0C1C86E22D009032B1 /* EF76 Nebulon-B escort frigate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "EF76 Nebulon-B escort frigate.png"; path = "StarShips/EF76 Nebulon-B escort frigate.png"; sourceTree = "<group>"; };
+		EE1E0B0D1C86E22D009032B1 /* Executor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Executor.png; path = StarShips/Executor.png; sourceTree = "<group>"; };
+		EE1E0B0E1C86E22D009032B1 /* Imperial shuttle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Imperial shuttle.png"; path = "StarShips/Imperial shuttle.png"; sourceTree = "<group>"; };
+		EE1E0B0F1C86E22D009032B1 /* Millennium Falcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Millennium Falcon.png"; path = "StarShips/Millennium Falcon.png"; sourceTree = "<group>"; };
+		EE1E0B101C86E22D009032B1 /* Sentinel-class landing craft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sentinel-class landing craft.png"; path = "StarShips/Sentinel-class landing craft.png"; sourceTree = "<group>"; };
+		EE1E0B111C86E22D009032B1 /* Slave 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slave 1.png"; path = "StarShips/Slave 1.png"; sourceTree = "<group>"; };
+		EE1E0B121C86E22D009032B1 /* TIE Advanced x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TIE Advanced x1.png"; path = "StarShips/TIE Advanced x1.png"; sourceTree = "<group>"; };
+		EE1E0B131C86E22D009032B1 /* X-wing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "X-wing.png"; path = "StarShips/X-wing.png"; sourceTree = "<group>"; };
+		EE1E0B141C86E22D009032B1 /* Y-wing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Y-wing.png"; path = "StarShips/Y-wing.png"; sourceTree = "<group>"; };
+		EE1E0B1F1C86E4F3009032B1 /* Alderaan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Alderaan.png; path = Planets/Alderaan.png; sourceTree = "<group>"; };
+		EE1E0B201C86E4F3009032B1 /* Bespin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bespin.png; path = Planets/Bespin.png; sourceTree = "<group>"; };
+		EE1E0B211C86E4F3009032B1 /* Coruscant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coruscant.png; path = Planets/Coruscant.png; sourceTree = "<group>"; };
+		EE1E0B221C86E4F3009032B1 /* Dagobah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dagobah.png; path = Planets/Dagobah.png; sourceTree = "<group>"; };
+		EE1E0B231C86E4F3009032B1 /* Endor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Endor.png; path = Planets/Endor.png; sourceTree = "<group>"; };
+		EE1E0B241C86E4F3009032B1 /* Geonosis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Geonosis.png; path = Planets/Geonosis.png; sourceTree = "<group>"; };
+		EE1E0B251C86E4F3009032B1 /* Hoth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hoth.png; path = Planets/Hoth.png; sourceTree = "<group>"; };
+		EE1E0B261C86E4F3009032B1 /* Kamino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kamino.png; path = Planets/Kamino.png; sourceTree = "<group>"; };
+		EE1E0B271C86E4F3009032B1 /* Naboo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Naboo.png; path = Planets/Naboo.png; sourceTree = "<group>"; };
+		EE1E0B281C86E4F3009032B1 /* Yavin IV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Yavin IV.png"; path = "Planets/Yavin IV.png"; sourceTree = "<group>"; };
+		EE1E0B341C86E70A009032B1 /* Ewok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ewok.png; path = Species/Ewok.png; sourceTree = "<group>"; };
+		EE1E0B351C86E70A009032B1 /* Gungan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gungan.png; path = Species/Gungan.png; sourceTree = "<group>"; };
+		EE1E0B361C86E70A009032B1 /* Hutt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hutt.png; path = Species/Hutt.png; sourceTree = "<group>"; };
+		EE1E0B371C86E70A009032B1 /* Mon Calamari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mon Calamari.png"; path = "Species/Mon Calamari.png"; sourceTree = "<group>"; };
+		EE1E0B381C86E70A009032B1 /* Neimodian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Neimodian.png; path = Species/Neimodian.png; sourceTree = "<group>"; };
+		EE1E0B391C86E70A009032B1 /* Rodian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rodian.png; path = Species/Rodian.png; sourceTree = "<group>"; };
+		EE1E0B3A1C86E70A009032B1 /* Sullustan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sullustan.png; path = Species/Sullustan.png; sourceTree = "<group>"; };
+		EE1E0B3B1C86E70A009032B1 /* Toydarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Toydarian.png; path = Species/Toydarian.png; sourceTree = "<group>"; };
+		EE1E0B3C1C86E70A009032B1 /* Trandoshan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trandoshan.png; path = Species/Trandoshan.png; sourceTree = "<group>"; };
+		EE1E0B3D1C86E70A009032B1 /* Yoda's species.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Yoda's species.png"; path = "Species/Yoda's species.png"; sourceTree = "<group>"; };
+		EE31C0C21C80BB29009AE9F4 /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE31C0CA1C80BB29009AE9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE31C0CC1C80BB29009AE9F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE31C0CF1C80BB29009AE9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE31C0D11C80BB29009AE9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE31C0D61C80BB29009AE9F4 /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE31C0DA1C80BB29009AE9F4 /* StarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsTests.swift; sourceTree = "<group>"; };
+		EE31C0DC1C80BB29009AE9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE31C0E11C80BB29009AE9F4 /* StarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE31C0E51C80BB29009AE9F4 /* StarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITests.swift; sourceTree = "<group>"; };
+		EE31C0E71C80BB29009AE9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE31C0F31C80C2DB009AE9F4 /* StarWars-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarWars-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE31C0F41C80C2DC009AE9F4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		EE31C0F81C80C2E6009AE9F4 /* CommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonCryptor.h; path = Classes/Extension/CommonCryptor.h; sourceTree = "<group>"; };
+		EE31C0F91C80C2E6009AE9F4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Classes/Extension/Extensions.swift; sourceTree = "<group>"; };
+		EE31C1061C817C16009AE9F4 /* bg_vid.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = bg_vid.mov; path = Classes/Assets/videos/bg_vid.mov; sourceTree = "<group>"; };
+		EE31C1081C81ADCA009AE9F4 /* BackgroundVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundVideo.swift; sourceTree = "<group>"; };
+		EE31C10A1C829CA6009AE9F4 /* APIFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIFunction.swift; path = Classes/HTTPFunctions/APIFunction.swift; sourceTree = "<group>"; };
+		EE31C10B1C829CA6009AE9F4 /* ConnectionDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionDetector.swift; path = Classes/HTTPFunctions/ConnectionDetector.swift; sourceTree = "<group>"; };
+		EE31C10F1C829E1C009AE9F4 /* ItemListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListTableViewController.swift; sourceTree = "<group>"; };
+		EE31C1111C82E9B5009AE9F4 /* TypeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeListCell.swift; sourceTree = "<group>"; };
+		EE31C1171C82FEAE009AE9F4 /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HRToast+UIView.swift"; path = "Classes/Toast/HRToast+UIView.swift"; sourceTree = "<group>"; };
+		EE31C1181C82FEAE009AE9F4 /* ToastFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToastFunction.swift; path = Classes/Toast/ToastFunction.swift; sourceTree = "<group>"; };
+		EE31C11C1C831011009AE9F4 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemDetailsViewController.swift; path = Classes/ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		EE31C11E1C836D76009AE9F4 /* AlertDialogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertDialogs.swift; path = Classes/EventHandler/AlertDialogs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE31C0BF1C80BB29009AE9F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31C0D31C80BB29009AE9F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31C0DE1C80BB29009AE9F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1DAD431C8619D000BB432A /* Image_Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E0AE01C86DC69009032B1 /* DarthVader.jpg */,
+				EE1E0B481C86E713009032B1 /* Species */,
+				EE1E0B331C86E4FA009032B1 /* Planets */,
+				EE1E0ACB1C86D31A009032B1 /* StarShips */,
+				EE1E0AF61C86E0AA009032B1 /* People */,
+			);
+			name = Image_Assets;
+			sourceTree = "<group>";
+		};
+		EE1E0ACB1C86D31A009032B1 /* StarShips */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E0B0B1C86E22D009032B1 /* Death Star.png */,
+				EE1E0B0C1C86E22D009032B1 /* EF76 Nebulon-B escort frigate.png */,
+				EE1E0B0D1C86E22D009032B1 /* Executor.png */,
+				EE1E0B0E1C86E22D009032B1 /* Imperial shuttle.png */,
+				EE1E0B0F1C86E22D009032B1 /* Millennium Falcon.png */,
+				EE1E0B101C86E22D009032B1 /* Sentinel-class landing craft.png */,
+				EE1E0B111C86E22D009032B1 /* Slave 1.png */,
+				EE1E0B121C86E22D009032B1 /* TIE Advanced x1.png */,
+				EE1E0B131C86E22D009032B1 /* X-wing.png */,
+				EE1E0B141C86E22D009032B1 /* Y-wing.png */,
+			);
+			name = StarShips;
+			sourceTree = "<group>";
+		};
+		EE1E0AF61C86E0AA009032B1 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E0AF71C86E204009032B1 /* Beru Whitesun lars.png */,
+				EE1E0AF81C86E204009032B1 /* Biggs Darklighter.png */,
+				EE1E0AF91C86E204009032B1 /* C-3PO.png */,
+				EE1E0AFA1C86E204009032B1 /* Darth Vader.png */,
+				EE1E0AFB1C86E204009032B1 /* Leia Organa.png */,
+				EE1E0AFC1C86E204009032B1 /* Luke Skywalker.png */,
+				EE1E0AFD1C86E204009032B1 /* Obi-Wan Kenobi.png */,
+				EE1E0AFE1C86E204009032B1 /* Owen Lars.png */,
+				EE1E0AFF1C86E204009032B1 /* R2-D2.png */,
+				EE1E0B001C86E204009032B1 /* R5-D4.png */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
+		EE1E0B331C86E4FA009032B1 /* Planets */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E0B1F1C86E4F3009032B1 /* Alderaan.png */,
+				EE1E0B201C86E4F3009032B1 /* Bespin.png */,
+				EE1E0B211C86E4F3009032B1 /* Coruscant.png */,
+				EE1E0B221C86E4F3009032B1 /* Dagobah.png */,
+				EE1E0B231C86E4F3009032B1 /* Endor.png */,
+				EE1E0B241C86E4F3009032B1 /* Geonosis.png */,
+				EE1E0B251C86E4F3009032B1 /* Hoth.png */,
+				EE1E0B261C86E4F3009032B1 /* Kamino.png */,
+				EE1E0B271C86E4F3009032B1 /* Naboo.png */,
+				EE1E0B281C86E4F3009032B1 /* Yavin IV.png */,
+			);
+			name = Planets;
+			sourceTree = "<group>";
+		};
+		EE1E0B481C86E713009032B1 /* Species */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E0B341C86E70A009032B1 /* Ewok.png */,
+				EE1E0B351C86E70A009032B1 /* Gungan.png */,
+				EE1E0B361C86E70A009032B1 /* Hutt.png */,
+				EE1E0B371C86E70A009032B1 /* Mon Calamari.png */,
+				EE1E0B381C86E70A009032B1 /* Neimodian.png */,
+				EE1E0B391C86E70A009032B1 /* Rodian.png */,
+				EE1E0B3A1C86E70A009032B1 /* Sullustan.png */,
+				EE1E0B3B1C86E70A009032B1 /* Toydarian.png */,
+				EE1E0B3C1C86E70A009032B1 /* Trandoshan.png */,
+				EE1E0B3D1C86E70A009032B1 /* Yoda's species.png */,
+			);
+			name = Species;
+			sourceTree = "<group>";
+		};
+		EE31C0B91C80BB29009AE9F4 = {
+			isa = PBXGroup;
+			children = (
+				EE31C0C41C80BB29009AE9F4 /* StarWars */,
+				EE31C0D91C80BB29009AE9F4 /* StarWarsTests */,
+				EE31C0E41C80BB29009AE9F4 /* StarWarsUITests */,
+				EE31C0C31C80BB29009AE9F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE31C0C31C80BB29009AE9F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C0C21C80BB29009AE9F4 /* StarWars.app */,
+				EE31C0D61C80BB29009AE9F4 /* StarWarsTests.xctest */,
+				EE31C0E11C80BB29009AE9F4 /* StarWarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE31C0C41C80BB29009AE9F4 /* StarWars */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C0F41C80C2DC009AE9F4 /* AppDelegate.swift */,
+				EE31C1081C81ADCA009AE9F4 /* BackgroundVideo.swift */,
+				EE1CBF061C8566D3003098E4 /* HomeViewController.swift */,
+				EE1CBF081C857C46003098E4 /* MenuViewController.swift */,
+				EE31C1131C82ED31009AE9F4 /* TypeListView */,
+				EE1E0AB51C86B3FC009032B1 /* DetailsListCell.swift */,
+				EE31C11C1C831011009AE9F4 /* ItemDetailsViewController.swift */,
+				EE31C1201C836D7C009AE9F4 /* EventHandler */,
+				EE31C11B1C82FEB3009AE9F4 /* Toast */,
+				EE31C10E1C829CAE009AE9F4 /* HTTPFunctions */,
+				EE31C1031C8161F5009AE9F4 /* Video */,
+				EE31C0FB1C80C2EC009AE9F4 /* Extensions */,
+				EE31C0CC1C80BB29009AE9F4 /* Assets.xcassets */,
+				EE1DAD431C8619D000BB432A /* Image_Assets */,
+				EE31C0CE1C80BB29009AE9F4 /* LaunchScreen.storyboard */,
+				EE31C0C91C80BB29009AE9F4 /* Main.storyboard */,
+				EE31C0D11C80BB29009AE9F4 /* Info.plist */,
+				EE31C0F31C80C2DB009AE9F4 /* StarWars-Bridging-Header.h */,
+			);
+			path = StarWars;
+			sourceTree = "<group>";
+		};
+		EE31C0D91C80BB29009AE9F4 /* StarWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C0DA1C80BB29009AE9F4 /* StarWarsTests.swift */,
+				EE31C0DC1C80BB29009AE9F4 /* Info.plist */,
+			);
+			path = StarWarsTests;
+			sourceTree = "<group>";
+		};
+		EE31C0E41C80BB29009AE9F4 /* StarWarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C0E51C80BB29009AE9F4 /* StarWarsUITests.swift */,
+				EE31C0E71C80BB29009AE9F4 /* Info.plist */,
+			);
+			path = StarWarsUITests;
+			sourceTree = "<group>";
+		};
+		EE31C0FB1C80C2EC009AE9F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C0F81C80C2E6009AE9F4 /* CommonCryptor.h */,
+				EE31C0F91C80C2E6009AE9F4 /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		EE31C1031C8161F5009AE9F4 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C1061C817C16009AE9F4 /* bg_vid.mov */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		EE31C10E1C829CAE009AE9F4 /* HTTPFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C10A1C829CA6009AE9F4 /* APIFunction.swift */,
+				EE31C10B1C829CA6009AE9F4 /* ConnectionDetector.swift */,
+			);
+			name = HTTPFunctions;
+			sourceTree = "<group>";
+		};
+		EE31C1131C82ED31009AE9F4 /* TypeListView */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C1111C82E9B5009AE9F4 /* TypeListCell.swift */,
+				EE31C10F1C829E1C009AE9F4 /* ItemListTableViewController.swift */,
+			);
+			name = TypeListView;
+			sourceTree = "<group>";
+		};
+		EE31C11B1C82FEB3009AE9F4 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C1171C82FEAE009AE9F4 /* HRToast+UIView.swift */,
+				EE31C1181C82FEAE009AE9F4 /* ToastFunction.swift */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		EE31C1201C836D7C009AE9F4 /* EventHandler */ = {
+			isa = PBXGroup;
+			children = (
+				EE31C11E1C836D76009AE9F4 /* AlertDialogs.swift */,
+			);
+			name = EventHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE31C0C11C80BB29009AE9F4 /* StarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE31C0EA1C80BB29009AE9F4 /* Build configuration list for PBXNativeTarget "StarWars" */;
+			buildPhases = (
+				EE31C0BE1C80BB29009AE9F4 /* Sources */,
+				EE31C0BF1C80BB29009AE9F4 /* Frameworks */,
+				EE31C0C01C80BB29009AE9F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWars;
+			productName = StarWars;
+			productReference = EE31C0C21C80BB29009AE9F4 /* StarWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE31C0D51C80BB29009AE9F4 /* StarWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE31C0ED1C80BB29009AE9F4 /* Build configuration list for PBXNativeTarget "StarWarsTests" */;
+			buildPhases = (
+				EE31C0D21C80BB29009AE9F4 /* Sources */,
+				EE31C0D31C80BB29009AE9F4 /* Frameworks */,
+				EE31C0D41C80BB29009AE9F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE31C0D81C80BB29009AE9F4 /* PBXTargetDependency */,
+			);
+			name = StarWarsTests;
+			productName = StarWarsTests;
+			productReference = EE31C0D61C80BB29009AE9F4 /* StarWarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE31C0E01C80BB29009AE9F4 /* StarWarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE31C0F01C80BB29009AE9F4 /* Build configuration list for PBXNativeTarget "StarWarsUITests" */;
+			buildPhases = (
+				EE31C0DD1C80BB29009AE9F4 /* Sources */,
+				EE31C0DE1C80BB29009AE9F4 /* Frameworks */,
+				EE31C0DF1C80BB29009AE9F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE31C0E31C80BB29009AE9F4 /* PBXTargetDependency */,
+			);
+			name = StarWarsUITests;
+			productName = StarWarsUITests;
+			productReference = EE31C0E11C80BB29009AE9F4 /* StarWarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE31C0BA1C80BB29009AE9F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "--=_t0tep_=--";
+				TargetAttributes = {
+					EE31C0C11C80BB29009AE9F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6ARHDGBXRD;
+					};
+					EE31C0D51C80BB29009AE9F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EE31C0C11C80BB29009AE9F4;
+					};
+					EE31C0E01C80BB29009AE9F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EE31C0C11C80BB29009AE9F4;
+					};
+				};
+			};
+			buildConfigurationList = EE31C0BD1C80BB29009AE9F4 /* Build configuration list for PBXProject "StarWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE31C0B91C80BB29009AE9F4;
+			productRefGroup = EE31C0C31C80BB29009AE9F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE31C0C11C80BB29009AE9F4 /* StarWars */,
+				EE31C0D51C80BB29009AE9F4 /* StarWarsTests */,
+				EE31C0E01C80BB29009AE9F4 /* StarWarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE31C0C01C80BB29009AE9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1E0B011C86E204009032B1 /* Beru Whitesun lars.png in Resources */,
+				EE1E0B321C86E4F3009032B1 /* Yavin IV.png in Resources */,
+				EE1E0B301C86E4F3009032B1 /* Kamino.png in Resources */,
+				EE1E0B151C86E22D009032B1 /* Death Star.png in Resources */,
+				EE1E0B161C86E22D009032B1 /* EF76 Nebulon-B escort frigate.png in Resources */,
+				EE1E0B291C86E4F3009032B1 /* Alderaan.png in Resources */,
+				EE1E0B041C86E204009032B1 /* Darth Vader.png in Resources */,
+				EE31C0D01C80BB29009AE9F4 /* LaunchScreen.storyboard in Resources */,
+				EE1E0B1A1C86E22D009032B1 /* Sentinel-class landing craft.png in Resources */,
+				EE1E0B3E1C86E70A009032B1 /* Ewok.png in Resources */,
+				EE1E0B401C86E70A009032B1 /* Hutt.png in Resources */,
+				EE1E0B471C86E70A009032B1 /* Yoda's species.png in Resources */,
+				EE1E0B091C86E204009032B1 /* R2-D2.png in Resources */,
+				EE1E0B2A1C86E4F3009032B1 /* Bespin.png in Resources */,
+				EE1E0B051C86E204009032B1 /* Leia Organa.png in Resources */,
+				EE1E0B0A1C86E204009032B1 /* R5-D4.png in Resources */,
+				EE31C1071C817C16009AE9F4 /* bg_vid.mov in Resources */,
+				EE1E0B1B1C86E22D009032B1 /* Slave 1.png in Resources */,
+				EE1E0B2E1C86E4F3009032B1 /* Geonosis.png in Resources */,
+				EE1E0B2F1C86E4F3009032B1 /* Hoth.png in Resources */,
+				EE1E0B441C86E70A009032B1 /* Sullustan.png in Resources */,
+				EE1E0B181C86E22D009032B1 /* Imperial shuttle.png in Resources */,
+				EE1E0B421C86E70A009032B1 /* Neimodian.png in Resources */,
+				EE1E0B431C86E70A009032B1 /* Rodian.png in Resources */,
+				EE1E0B061C86E204009032B1 /* Luke Skywalker.png in Resources */,
+				EE1E0AE11C86DC69009032B1 /* DarthVader.jpg in Resources */,
+				EE1E0B311C86E4F3009032B1 /* Naboo.png in Resources */,
+				EE1E0B081C86E204009032B1 /* Owen Lars.png in Resources */,
+				EE1E0B2C1C86E4F3009032B1 /* Dagobah.png in Resources */,
+				EE1E0B2D1C86E4F3009032B1 /* Endor.png in Resources */,
+				EE1E0B411C86E70A009032B1 /* Mon Calamari.png in Resources */,
+				EE1E0B031C86E204009032B1 /* C-3PO.png in Resources */,
+				EE1E0B461C86E70A009032B1 /* Trandoshan.png in Resources */,
+				EE1E0B2B1C86E4F3009032B1 /* Coruscant.png in Resources */,
+				EE31C0CD1C80BB29009AE9F4 /* Assets.xcassets in Resources */,
+				EE1E0B451C86E70A009032B1 /* Toydarian.png in Resources */,
+				EE31C0CB1C80BB29009AE9F4 /* Main.storyboard in Resources */,
+				EE1E0B071C86E204009032B1 /* Obi-Wan Kenobi.png in Resources */,
+				EE1E0B191C86E22D009032B1 /* Millennium Falcon.png in Resources */,
+				EE1E0B171C86E22D009032B1 /* Executor.png in Resources */,
+				EE1E0B1E1C86E22D009032B1 /* Y-wing.png in Resources */,
+				EE1E0B3F1C86E70A009032B1 /* Gungan.png in Resources */,
+				EE1E0B021C86E204009032B1 /* Biggs Darklighter.png in Resources */,
+				EE1E0B1C1C86E22D009032B1 /* TIE Advanced x1.png in Resources */,
+				EE1E0B1D1C86E22D009032B1 /* X-wing.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31C0D41C80BB29009AE9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31C0DF1C80BB29009AE9F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE31C0BE1C80BB29009AE9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31C11A1C82FEAE009AE9F4 /* ToastFunction.swift in Sources */,
+				EE31C0FA1C80C2E6009AE9F4 /* Extensions.swift in Sources */,
+				EE1CBF091C857C46003098E4 /* MenuViewController.swift in Sources */,
+				EE31C1101C829E1C009AE9F4 /* ItemListTableViewController.swift in Sources */,
+				EE31C11F1C836D76009AE9F4 /* AlertDialogs.swift in Sources */,
+				EE31C1121C82E9B5009AE9F4 /* TypeListCell.swift in Sources */,
+				EE31C11D1C831011009AE9F4 /* ItemDetailsViewController.swift in Sources */,
+				EE31C0F61C80C2DC009AE9F4 /* AppDelegate.swift in Sources */,
+				EE31C1191C82FEAE009AE9F4 /* HRToast+UIView.swift in Sources */,
+				EE31C10C1C829CA6009AE9F4 /* APIFunction.swift in Sources */,
+				EE31C1091C81ADCA009AE9F4 /* BackgroundVideo.swift in Sources */,
+				EE1CBF071C8566D3003098E4 /* HomeViewController.swift in Sources */,
+				EE1E0AB61C86B3FC009032B1 /* DetailsListCell.swift in Sources */,
+				EE31C10D1C829CA6009AE9F4 /* ConnectionDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31C0D21C80BB29009AE9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31C0DB1C80BB29009AE9F4 /* StarWarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31C0DD1C80BB29009AE9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31C0E61C80BB29009AE9F4 /* StarWarsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE31C0D81C80BB29009AE9F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE31C0C11C80BB29009AE9F4 /* StarWars */;
+			targetProxy = EE31C0D71C80BB29009AE9F4 /* PBXContainerItemProxy */;
+		};
+		EE31C0E31C80BB29009AE9F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE31C0C11C80BB29009AE9F4 /* StarWars */;
+			targetProxy = EE31C0E21C80BB29009AE9F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE31C0C91C80BB29009AE9F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE31C0CA1C80BB29009AE9F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE31C0CE1C80BB29009AE9F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE31C0CF1C80BB29009AE9F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE31C0E81C80BB29009AE9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE31C0E91C80BB29009AE9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE31C0EB1C80BB29009AE9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = StarWars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.StarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarWars/StarWars-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE31C0EC1C80BB29009AE9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = StarWars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.StarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "StarWars/StarWars-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EE31C0EE1C80BB29009AE9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.StarWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars.app/StarWars";
+			};
+			name = Debug;
+		};
+		EE31C0EF1C80BB29009AE9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.StarWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWars.app/StarWars";
+			};
+			name = Release;
+		};
+		EE31C0F11C80BB29009AE9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StarWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.StarWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarWars;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE31C0F21C80BB29009AE9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StarWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.StarWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarWars;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE31C0BD1C80BB29009AE9F4 /* Build configuration list for PBXProject "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31C0E81C80BB29009AE9F4 /* Debug */,
+				EE31C0E91C80BB29009AE9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE31C0EA1C80BB29009AE9F4 /* Build configuration list for PBXNativeTarget "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31C0EB1C80BB29009AE9F4 /* Debug */,
+				EE31C0EC1C80BB29009AE9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE31C0ED1C80BB29009AE9F4 /* Build configuration list for PBXNativeTarget "StarWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31C0EE1C80BB29009AE9F4 /* Debug */,
+				EE31C0EF1C80BB29009AE9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE31C0F01C80BB29009AE9F4 /* Build configuration list for PBXNativeTarget "StarWarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31C0F11C80BB29009AE9F4 /* Debug */,
+				EE31C0F21C80BB29009AE9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE31C0BA1C80BB29009AE9F4 /* Project object */;
+}
