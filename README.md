@@ -2,9 +2,8 @@
 
 StarWars Demo app that displays data fetch from http://swapi.co/
 
-[[https://github.com/neon0619/StarWars/blob/master/StarWars/Planets/Alderaan.png]]
 
-![Alt text](https://github.com/neon0619/StarWars/blob/master/StarWars/Planets/Alderaan.png "Optional Title")
+![Alt text](https://github.com/neon0619/StarWars/blob/master/StarWars/Planets/Alderaan.png "")
 
 ## Installation
 TODO: Describe the installation process
