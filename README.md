@@ -1,6 +1,7 @@
 # StarWars
 
-TODO: Write a project description
+StarWars Demo app that displays data fetch from http://swapi.co/
+
 ## Installation
 TODO: Describe the installation process
 ## Usage
