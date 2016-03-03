@@ -1,6 +1,8 @@
 # StarWars
 
-### StarWars Demo app that displays data fetched from http://swapi.co/
+#### StarWars Demo app that displays data fetched from http://swapi.co/
+
+
 
 ## Screen Shots
 
