@@ -1,7 +1,9 @@
 # StarWars
 ###### StarWars Demo app that displays data fetched from http://swapi.co/
 
-
+## App Description
+###### Starwars app displays the information of specific item selected on the app.
+###### The app was made using Swift 2.1
 
 ## Screen Shots
 
